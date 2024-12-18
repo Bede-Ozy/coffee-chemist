@@ -1,0 +1,42 @@
+nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 30px;
+    height:45px;
+    width:1000px;
+    margin:20px 20%;
+    box-sizing: border-box;
+    border:1px solid rgb(111, 61, 8);
+}
+
+.navLogo{
+    width:30px;
+    margin:5px;
+    padding:0px;
+}
+
+.navLogo p{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.navLogo svg{
+    margin:0;
+    padding:0;
+}
+.navLinks{
+    display:grid;
+    height:30px;
+    padding:0;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+
+.navLinks a{
+    text-align: center;
+    display: block;
+    height:45px;
+    padding-top:10px;
+    box-sizing: border-box;
+    color:goldenrod;
+}
